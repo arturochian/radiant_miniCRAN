@@ -1,0 +1,8 @@
+Package: shinyAce
+Version: 0.2.0
+Depends: R (>= 2.15.0)
+Imports: shiny (>= 0.7.0)
+Suggests: testthat, dplyr (>= 0.3.0)
+License: MIT
+MD5sum: 40183414ea755a99c55b9dba76408b34
+

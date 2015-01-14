@@ -24,8 +24,9 @@ setwd(pth)
 # Specify list of packages to download
 pkgs_gh <- ""
 source('pkgs.R')
+# options(repos = c(CRAN = c("http://vnijs.rady.ucsd.edu/site_media/R","http://cran.rstudio.com")))
+# options(repos = c(CRAN = c("http://vnijs.rady.ucsd.edu/site_media/R","http://cran.rstudio.com")))
 options(repos = c(CRAN = c("http://vnijs.rady.ucsd.edu/site_media/R","http://cran.rstudio.com")))
-# options(repos = c(CRAN = "http://cran.rstudio.com"))
 
 # setting the default location to get R-packages
 # look locally first and then in the Rstudio CRAN
